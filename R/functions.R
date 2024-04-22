@@ -41,8 +41,8 @@ betabin <- function(data, alpha, beta, as_obs = TRUE){
     num_heads = sum(data == 1)
     num_tails = sum(data == 0)
   } else {
-    num_heads = data[0]
-    num_tails = data[1]
+    num_heads = data[1]
+    num_tails = data[2]
   }
 
   thetas = seq(0, 1, 0.005)
