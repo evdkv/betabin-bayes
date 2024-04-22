@@ -10,13 +10,13 @@ the second.
 Example 1:
 
 ```r
-model <-- betabin(data, alpha = 1, beta = 3)
+model <- betabin(data, alpha = 1, beta = 3)
 ```
 
 Example 2:
 
 ```r
-model <-- betabin(c(23, 78), alpha = 1, beta = 3, as_obs = FALSE)
+model <- betabin(c(23, 78), alpha = 1, beta = 3, as_obs = FALSE)
 ```
 
 ## Summary of Functions
